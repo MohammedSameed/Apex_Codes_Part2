@@ -1,0 +1,10 @@
+
+
+List<Account> accounts = Database.query('SELECT Id, Name FROM Account WHERE Name = '/Sameed/'');
+   for (Account acc : accounts) {
+    System.debug('Account Name: ' + acc.Name);
+}
+
+
+
+

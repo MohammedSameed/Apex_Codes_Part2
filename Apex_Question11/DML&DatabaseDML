@@ -1,0 +1,15 @@
+          
+ DML Statements	      
+•	DML statements do not support the partial manipulation of records in a list.
+•	DML does not return the list of success or failure of records.
+•	Syntax:
+ Insert recordList;
+
+
+
+
+Database Methods
+	•	Database methods allow partial manipulation of records in a list.
+•	Database method returns the list of success and failure of records
+•	syntax: database.insert(recordList, false);
+
